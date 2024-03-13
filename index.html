@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #person{
+            height:100px;
+            width:100px;
+            float: right;
+            margin-top:-80px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+    var h1=document.createElement("h1")
+    h1.innerText="Shivarathri Jyothi"
+    h1.style.textAlign="center"
+    document.body.appendChild(h1);
+    var img=document.createElement("img");
+    img.setAttribute("src","./person.jpg");
+    img.setAttribute("id","person");
+    document.body.appendChild(img);
+    var hr = document.createElement("hr");
+    hr.style.marginTop="50px";
+    document.body.appendChild(hr);
+    var h4=document.createElement("h4")
+    h4.innerText="Career objective:"
+    document.body.appendChild(h4);
+    var p=document.createElement("p")
+    p.innerText="Enthusiastic and motivated Frontend Developer eager to leverage expertise in HTML, CSS, and JavaScript to contribute to dynamic projects."
+    document.body.appendChild(p);
+    var hr = document.createElement("hr");
+    document.body.appendChild(hr);
+    var fieldset=document.createElement("fieldset");
+    document.body.appendChild(fieldset);
+    var legend=document.createElement("legend");
+    legend.innerText="Technical skills"
+    fieldset.appendChild(legend);
+    var ul=document.createElement("ul");
+    fieldset.appendChild(ul);
+    var li=document.createElement("li");
+    ul.appendChild(li);
+    li.innerText="HTML";
+    var li=document.createElement("li");
+    ul.appendChild(li);
+    li.innerText="CSS";
+    var li=document.createElement("li");
+    ul.appendChild(li);
+    li.innerText="JavaScript";
+    var hr = document.createElement("hr");
+    document.body.appendChild(hr);
+    var fieldset=document.createElement("fieldset");
+    document.body.appendChild(fieldset);
+    var legend=document.createElement("legend");
+    legend.innerText="Hobbies"
+    fieldset.appendChild(legend);
+    var ul=document.createElement("ul");
+    fieldset.appendChild(ul);
+    var li=document.createElement("li");
+    ul.appendChild(li);
+    li.innerText="Realistic Sketching";
+    var li=document.createElement("li");
+    ul.appendChild(li);
+    li.innerText="Watching Movies";
+    var p1=document.createElement("p")
+    p1.innerText="Name:"
+    document.body.appendChild(p1);
+    var p=document.createElement("p")
+    p.innerText="Jyothi"
+    p.style.marginTop="-17px"
+    p.style.marginLeft="50px"
+    p1.appendChild(p);
+    var p2=document.createElement("p")
+    p2.innerText="Date:"
+    document.body.appendChild(p2);
+    var p=document.createElement("p")
+    p.innerText="16-02-2024"
+    p.style.marginTop="-18px"
+    p.style.marginLeft="50px"
+    p2.appendChild(p);
+    var p3=document.createElement("p")
+    p3.innerText="Signature:"
+    document.body.appendChild(p3);
+    var img1=document.createElement("img");
+    img1.setAttribute("src","./signature.png");
+    img1.style.height="50px";
+    img1.style.width="50px";
+    img1.style.marginTop="-10px"
+    img1.style.marginLeft="10px"
+    p3.appendChild(img1);
+    </script>
+</body>
+</html>
